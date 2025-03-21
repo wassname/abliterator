@@ -7,6 +7,8 @@ uv sync
 
 then open nbs/01_abliterate.ipynb in Jupyter Notebook.
 
+STATUS:
+- I find that abliteration just doesn't work very well. It's very sensitive to parameters. Doesn't work on some models. Underperforms compared to "uncensored" SFT. Maybe with more mechinterp research it could be improved.
 
 TODO:
 - [ ] tidy up
