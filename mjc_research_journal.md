@@ -30,3 +30,15 @@ last (winner!)
     |:------------|-------------:|------------:|
     | base        |      8.63868 |    0.145753 |
     | edit_output |      8.77472 |    0.161948 |
+
+
+check that activation cache works, even with 16b
+try instructions, not completions?
+try choosing token? e.g. gen_token, 2nd_to_last_token, etc
+
+
+in self other overlap the they used lora fine tuning, on query and value projection, and sompare self_attn.o_proj.... I could try this on repr?
+
+oh wait it wont with with the pair approach I'm taking as the prompt is the same, normal abliteration takes diff prompts... and then they would not be comparable anyway
+
+I guess I could try lr on original
