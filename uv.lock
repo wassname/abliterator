@@ -15,6 +15,7 @@ dependencies = [
     { name = "activation-store" },
     { name = "baukit" },
     { name = "colorama" },
+    { name = "concept-erasure" },
     { name = "datasets" },
     { name = "einops" },
     { name = "jaxtyping" },
@@ -36,6 +37,7 @@ requires-dist = [
     { name = "activation-store", editable = "../../elk/cache_transformer_acts" },
     { name = "baukit", git = "https://github.com/davidbau/baukit.git" },
     { name = "colorama", specifier = ">=0.4.6" },
+    { name = "concept-erasure", specifier = ">=0.2.4" },
     { name = "datasets", specifier = ">=3.3.2" },
     { name = "einops", specifier = ">=0.8.1" },
     { name = "jaxtyping", specifier = ">=0.2.38" },
@@ -403,6 +405,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/e9/a8/fb783cb0abe2b5fded9f55e5703015cdf1c9c85b3669087c538dd15a6a86/comm-0.2.2.tar.gz", hash = "sha256:3fd7a84065306e07bea1773df6eb8282de51ba82f77c72f9c85716ab11fe980e", size = 6210 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/e6/75/49e5bfe642f71f272236b5b2d2691cf915a7283cc0ceda56357b61daa538/comm-0.2.2-py3-none-any.whl", hash = "sha256:e6fb86cb70ff661ee8c9c14e7d36d6de3b4066f1441be4063df9c5009f0a64d3", size = 7180 },
+]
+
+[[package]]
+name = "concept-erasure"
+version = "0.2.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "torch" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a4/33/e2b5ad6331faa1fc6441c4d48c8c59013da126b2aa61ae299cf4529b8e26/concept-erasure-0.2.4.tar.gz", hash = "sha256:3f2a8f3a9713c7a906c4013b1d94594ca588af7124f04541ca6b4ea72f04ce90", size = 24999 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/05/3f/859285794eba7e6d215e2bdf1ff81eb957b69a6c30577cf04e64782d4411/concept_erasure-0.2.4-py3-none-any.whl", hash = "sha256:a7665b49d97c6aa3bfd504ca724ef460bb61237aa510ae31e9550de8619806af", size = 25691 },
 ]
 
 [[package]]

@@ -9,6 +9,7 @@ dependencies = [
     "activation-store",
     "baukit",
     "colorama>=0.4.6",
+    "concept-erasure>=0.2.4",
     "datasets>=3.3.2",
     "einops>=0.8.1",
     "jaxtyping>=0.2.38",
