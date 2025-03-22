@@ -12,6 +12,8 @@ TODO:
 - [ ] tidy up
 - [ ] use https://github.com/wassname/activation_store to cache large numbers of examples to disc
 
+
+![alt text](docs/image.png)
 ## See also
 
 
