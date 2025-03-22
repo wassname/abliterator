@@ -14,6 +14,10 @@ TODO:
 
 
 ![alt text](docs/image.png)
+
+
+> TODO update. mention the main features and advantages: caching activations to disk to allow us to use large datasets, using logistic regression to find a **predictive** direction, using pair preference data to allow us to compare invidiual prompts (a more surgical approach), using baukit instead of transformerlens to make it (in my opinion) lighter
+
 ## See also
 
 
