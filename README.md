@@ -1,5 +1,6 @@
 # wassname's Abliterator (with baukit not transformerlens)
 
+What is this? It's a concept removal method, here I show how to use baukit, which is a nice library which uses pytorch hooks to modify layers at runtime.
 
 ```sh
 uv sync
@@ -13,7 +14,7 @@ TODO:
 - [ ] use https://github.com/wassname/activation_store to cache large numbers of examples to disc
 
 
-![alt text](docs/image.png)
+<1--![alt text](docs/image.png)-->
 ## See also
 
 
