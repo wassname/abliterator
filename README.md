@@ -6,7 +6,7 @@ What is this? It's a concept removal method, here I show how to use [baukit](htt
 uv sync
 ```
 
-then open [nbs/01_abliterate.ipynb](nbs/01_abliterate.ipynb) in Jupyter Notebook.
+then open [nbs/02b_abliterate_lr.ipynb](nbs/02b_abliterate_lr.ipynb) in Jupyter Notebook.
 
 <!-- disabled-docs/image.png -->
 <!--
