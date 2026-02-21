@@ -2,6 +2,7 @@
 
 What is this? It's a concept removal method, here I show how to use [baukit](https://github.com/davidbau/baukit/blob/main/baukit/nethook.py), which is a nice library which uses pytorch hooks to modify layers at runtime.
 
+## setup
 ```sh
 uv sync
 ```
